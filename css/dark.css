@@ -1,0 +1,283 @@
+html,
+body,
+.header {
+    background-color: rgb(50, 49, 58);
+
+}
+
+.active_header {
+    z-index: 100;
+    background-color: rgb(35, 35, 35);
+}
+
+
+.left__content_title p {
+    color: rgb(255, 255, 255);
+    
+
+}
+
+.left__content_text p {
+    color: rgb(138, 138, 138);
+}
+
+.header__burger::before {
+    background-color: #fff;
+    background-color: rgb(255, 255, 255);
+}
+
+.header__burger::after {
+    background-color: #fff;
+    background-color: rgb(255, 255, 255);
+}
+
+.black {
+    color: white;
+}
+
+
+
+.black2 {
+    color: white;
+}
+
+.right__content {
+    background-color: rgb(50, 49, 58);
+
+}
+
+.right__content {
+    display: none;
+}
+
+.animals {
+    display: inline-block;
+    position: relative;
+
+}
+
+.animals::after {
+    background-color: rgb(250, 87, 69);
+    position: absolute;
+    z-index: 1;
+    top: 60px;
+}
+
+
+.animals2 {
+    display: inline;
+    position: relative;
+
+}
+
+.animals2::after {
+    background-color: rgb(250, 87, 69);
+    position: absolute;
+    z-index: 1;
+
+}
+
+.animals__land {
+    display: inline;
+    position: relative;
+}
+
+.animals__land::after {
+    display: block;
+    content: " ";
+    height: 10px;
+    width: 0%;
+    background-color: rgb(250, 87, 69);
+    position: absolute;
+    z-index: 1;
+    top: 135px;
+    width: calc(0% + 330px);
+
+}
+
+
+.number__two {
+    color: #fff;
+}
+
+.three__left__block {
+    background-color: rgb(70, 74, 92);
+
+}
+
+.three__left__block_title {
+    color: #fff;
+}
+
+.three__left__block_text {
+    color: rgb(138, 138, 138);
+}
+
+.three__right__block {
+    background-color: rgb(61, 65, 80);
+}
+
+.three__right__block_title {
+    color: #fff;
+}
+
+.three__right__block_text {
+    color: rgb(138, 138, 138);
+}
+
+.content__four_title {
+    color: #fff;
+}
+
+.content__four_text {
+    color: rgb(138, 138, 138);
+}
+
+@media (max-width: 981px) {
+    .left__content_title p {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+
+    .animals__land {
+        display: inline;
+        position: relative;
+    }
+    
+    .animals__land::after {
+        display: block;
+        content: " ";
+        height: 8px;
+        width: 0%;
+        background-color: rgb(250, 87, 69);
+        position: absolute;
+        z-index: 1;
+        top: 90px;
+        width: calc(0% + 195px);
+    
+    }
+    
+
+    .animals {
+        display: inline-block;
+        position: relative;
+
+    }
+
+    .animals::after {
+        display: block;
+        content: " ";
+        height: 8px;
+        width: 0%;
+        background-color: rgb(250, 87, 69);
+        position: absolute;
+        top: 40px;
+        left: -5px;
+        z-index: 1;
+        width: calc(100% + 10px);
+    }
+
+
+    .animals2 {
+        display: inline;
+        position: relative;
+
+    }
+
+    .animals2::after {
+        display: block;
+        content: " ";
+        height: 8px;
+        width: 0%;
+        background-color: rgb(250, 87, 69);
+        position: absolute;
+        z-index: 1;
+        top: 90px;
+        width: calc(0% + 158px);
+    }
+}
+
+@media (max-width: 500px) {
+    .animals {
+        display: inline-block;
+        position: relative;
+
+    }
+
+    .lock__500 {
+        display: none;
+    }
+
+    .animals__land {
+        display: inline;
+        position: relative;
+    }
+    
+    .animals__land::after {
+        display: block;
+        content: " ";
+        height: 4px;
+        width: 0%;
+        background-color: rgb(250, 87, 69);
+        position: absolute;
+        z-index: 1;
+        top: 65px;
+        width: calc(0% + 121px);
+    
+    }
+
+    .left__content_title p {
+        font-size: 25px;
+        font-family: CorsicaLX-Bold;
+        font-weight: 900;
+        color: rgb(255, 255, 255);
+        line-height: 40px;
+    }
+
+    .animals::after {
+        display: block;
+        content: " ";
+        height: 4px;
+        width: 0%;
+        background-color: rgb(250, 87, 69);
+        position: absolute;
+        top: 29px;
+        left: -5px;
+        z-index: 1;
+        width: calc(100% + 10px);
+    }
+
+
+    .animals2 {
+        display: inline;
+        position: relative;
+
+    }
+
+    .animals2::after {
+        display: block;
+        content: " ";
+        height: 4px;
+        width: 0%;
+        background-color: rgb(250, 87, 69);
+        position: absolute;
+        z-index: 1;
+        top: 65px;
+        width: calc(0% + 100px);
+    }
+
+   
+}
+
+
+@media (max-width: 250px) {
+    .footer__right_button {
+        padding: 10px;
+    }
+
+    .header__burger {
+        margin: 0;
+    }
+}
+
